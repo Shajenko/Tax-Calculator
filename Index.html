@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Tax Calculator</title>
+
+	<script language="javascript" src="Logic.js"></script>
+	<link rel="stylesheet" type="text/css" href="Template.css">
+
+</head>
+<body onload="initialize()">
+    <table align="center" width="100%" cellspacing="5" cellpadding="5px">
+      <tbody>
+        <tr>
+          <td><h1>Tax Calculator</h1></td>
+<td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+
+	<br>
+    
+
+    <div id="TitleContent" style="text-align: center">
+        <a href="./Index.html"> Home       </a>
+        <br />
+    </div>
+
+    <br>
+   
+   	<table width="100%">
+   		<tbody>
+			<tr>
+				<td>
+					<h2>Income</h2>
+				</td>
+				<td>
+					<input name="Income"></input>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h2>Deductions</h2>
+				</td>
+				<td>
+					<input name="Deductions"></input>
+				</td>
+			</tr>		
+			<tr>
+				<td>
+					<h2>Credits</h2>
+				</td>
+				<td>
+					<input name="Credits"></input>
+				</td>
+			</tr>		
+			<tr>
+				<td> </td>
+			</tr>
+			<tr>
+				<td>
+					<h2>Taxes Due</h2>
+				</td>
+				<td>
+					<input name="TaxesDue" disabled="true"></input>
+				</td>
+			</tr>		
+		</tbody>
+	</table>
+
+</body>
+</html>

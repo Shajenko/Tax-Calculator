@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+table {
+	width:100%;
+	padding: 1px;
+	margin: 0;
+	border: #000000;
+	border-width: 0;
+	border-spacing: 2px;
+	border-collapse: separate;
+	
+}
+
+ tr, th, td{
+   border-width:0px;
+   border-style: solid;
+	 padding: 1px;
+ }
