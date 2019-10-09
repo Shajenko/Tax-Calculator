@@ -37,7 +37,7 @@
 					<h2>Income</h2>
 				</td>
 				<td>
-					<input name="Income"></input>
+					<input id="Income"></input>
 				</td>
 			</tr>
 			<tr>
@@ -45,7 +45,7 @@
 					<h2>Deductions</h2>
 				</td>
 				<td>
-					<input name="Deductions"></input>
+					<input id="Deductions"></input>
 				</td>
 			</tr>		
 			<tr>
@@ -53,7 +53,7 @@
 					<h2>Credits</h2>
 				</td>
 				<td>
-					<input name="Credits"></input>
+					<input id="Credits"></input>
 				</td>
 			</tr>		
 			<tr>
@@ -64,9 +64,12 @@
 					<h2>Taxes Due</h2>
 				</td>
 				<td>
-					<input name="TaxesDue" disabled="true"></input>
+					<input id="TaxesDue" disabled="true"></input>
 				</td>
 			</tr>		
+			<tr>
+				<td></td><td><button type="button" onclick="CalcTax()">Calculate</button></td>
+			</tr>
 		</tbody>
 	</table>
 
